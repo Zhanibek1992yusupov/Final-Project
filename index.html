@@ -1,11 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <title>Tractor</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>trakor</h1>
+
+      <ul>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+      <div class="navbar-links">
+        <a href="#">Sign In</a>
+        <button class="btn">Request more info</button>
+      </div>
+    </header>
+    <section class="section1">
+      <div class="inner-text">
+        <p>Team Progress Tracking Tool</p>
+        <h1>Track your team progress</h1>
+        <h3>
+          Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
+          ornare viverra. <br />Ultrices faucibus neque velit risus ac id lorem.
+        </h3>
+
+        <div class="button">
+          <button class="blue-btn">Start for free</button>
+          <button class="btn">Request more info</button>
+        </div>
+      </div>
+      <div class="inner-img">
+        <img src="./imaeges/Shapes.svg" alt="" />
+      </div>
+    </section>
+    <section class="section2">
+      <div class="section2-inner">
+        <p>Trusted by teams from leading companies</p>
+        <div class="section2-inner-logo">
+          <img src="./imaeges/Logo-grey (4).svg" alt="" />
+          <img src="./imaeges/Logo-grey.svg" alt="" />
+          <img src="./imaeges/Logo-grey (1).svg" alt="" />
+          <img src="./imaeges/Logo-grey (2).svg" alt="" />
+          <img src="./imaeges/Logo-grey (3).svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <h1>Your team. Your projects.</h1>
+      <h2>Always together.</h2>
+      <p>Malesuada ut aliquam at ac est nisi, interdum etiam dignissim.</p>
+    </section>
+    <section class="section4">
+      <div class="section4-inner-text">
+        <h1>Bigger team.</h1>
+        <h2>More time.</h2>
+        <p>
+          Quam quis orci turpis vulputate platea. Urna ipsum suscipit nullam
+          ipsum nam leo fringilla eget lorem. Sit vestibulum phasellus integer
+          et et diam malesuada. Sed tortor orci mauris proin ac. Venenatis
+          euismod mauris quis sit purus nisi. Sed quis eget augue ut aliquam
+          sed.
+        </p>
+      </div>
+      <div class="section4-inner-img">
+        <div class="picture1">
+          <img src="./imaeges/image.png" class="00001" alt="" />
+          <img src="./imaeges/image (1).png" alt="" />
+        </div>
+        <div class="picture2">
+          <img src="./imaeges/image (2).png" alt="" />
+          <img src="./imaeges/image (3).png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <div class="section5-inner">
+        <div class="section5-inner-text">
+          <h1>
+            Diam quam tortor eget id. <br />Aliquet lacus volutpat tristique sed
+            diam.
+          </h1>
+        </div>
+        <div class="section5-inner-img">
+          <img src="./imaeges/Desktop.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section6">
+      <div class="section6-inner-img">
+        <img src="./imaeges/Picture-section6.png" alt="" />
+        <img src="./imaeges/Picture-section6 (1).png" alt="" />
+        <img src="./imaeges/Picture-section6 (2).png" alt="" />
+      </div>
+      <div class="section6-inner-text">
+        <h1>Powerful tools.</h1>
+        <h2>More control.</h2>
+        <h3>
+          Scelerisque auctor dolor diam tortor, fames faucibus non interdum
+          nunc. <br />Ultrices nibh sapien elit gravida ac, rutrum molestie
+          adipiscing lacinia.
+        </h3>
+        <ul>
+          <li>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="icon / jam-icons / outline &#38; logos / check">
+                <path
+                  id="Vector"
+                  d="M10.4862 16.8708C10.355 16.871 10.2249 16.8454 10.1036 16.7953C9.98229 16.7452 9.87205 16.6716 9.77923 16.5788L5.53723 12.3358C5.44166 12.2436 5.3654 12.1333 5.31291 12.0113C5.26041 11.8894 5.23274 11.7582 5.23149 11.6254C5.23024 11.4926 5.25545 11.3609 5.30565 11.238C5.35584 11.115 5.43001 11.0033 5.52384 10.9094C5.61766 10.8154 5.72926 10.7411 5.85212 10.6907C5.97498 10.6404 6.10664 10.615 6.23942 10.616C6.3722 10.6171 6.50344 10.6446 6.62548 10.6969C6.74752 10.7492 6.85792 10.8253 6.95023 10.9208L10.4852 14.4558L16.8502 8.09276C17.0377 7.90512 17.2921 7.79965 17.5574 7.79956C17.8226 7.79947 18.0771 7.90476 18.2647 8.09226C18.4524 8.27977 18.5578 8.53414 18.5579 8.79941C18.558 9.06468 18.4527 9.31912 18.2652 9.50676L11.1932 16.5788C11.1004 16.6716 10.9902 16.7452 10.8688 16.7953C10.7475 16.8454 10.6175 16.871 10.4862 16.8708Z"
+                  fill="#818CF8"
+                />
+              </g>
+            </svg>
+            Interdum volutpat turpis malesuada ac turpis.
+          </li>
+          <li>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="icon / jam-icons / outline &#38; logos / check">
+                <path
+                  id="Vector"
+                  d="M10.4862 16.8708C10.355 16.871 10.2249 16.8454 10.1036 16.7953C9.98229 16.7452 9.87205 16.6716 9.77923 16.5788L5.53723 12.3358C5.44166 12.2436 5.3654 12.1333 5.31291 12.0113C5.26041 11.8894 5.23274 11.7582 5.23149 11.6254C5.23024 11.4926 5.25545 11.3609 5.30565 11.238C5.35584 11.115 5.43001 11.0033 5.52384 10.9094C5.61766 10.8154 5.72926 10.7411 5.85212 10.6907C5.97498 10.6404 6.10664 10.615 6.23942 10.616C6.3722 10.6171 6.50344 10.6446 6.62548 10.6969C6.74752 10.7492 6.85792 10.8253 6.95023 10.9208L10.4852 14.4558L16.8502 8.09276C17.0377 7.90512 17.2921 7.79965 17.5574 7.79956C17.8226 7.79947 18.0771 7.90476 18.2647 8.09226C18.4524 8.27977 18.5578 8.53414 18.5579 8.79941C18.558 9.06468 18.4527 9.31912 18.2652 9.50676L11.1932 16.5788C11.1004 16.6716 10.9902 16.7452 10.8688 16.7953C10.7475 16.8454 10.6175 16.871 10.4862 16.8708Z"
+                  fill="#818CF8"
+                />
+              </g>
+            </svg>
+            Tortor ipsum pretium quis nunc.
+          </li>
+          <li>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="icon / jam-icons / outline &#38; logos / check">
+                <path
+                  id="Vector"
+                  d="M10.4862 16.8708C10.355 16.871 10.2249 16.8454 10.1036 16.7953C9.98229 16.7452 9.87205 16.6716 9.77923 16.5788L5.53723 12.3358C5.44166 12.2436 5.3654 12.1333 5.31291 12.0113C5.26041 11.8894 5.23274 11.7582 5.23149 11.6254C5.23024 11.4926 5.25545 11.3609 5.30565 11.238C5.35584 11.115 5.43001 11.0033 5.52384 10.9094C5.61766 10.8154 5.72926 10.7411 5.85212 10.6907C5.97498 10.6404 6.10664 10.615 6.23942 10.616C6.3722 10.6171 6.50344 10.6446 6.62548 10.6969C6.74752 10.7492 6.85792 10.8253 6.95023 10.9208L10.4852 14.4558L16.8502 8.09276C17.0377 7.90512 17.2921 7.79965 17.5574 7.79956C17.8226 7.79947 18.0771 7.90476 18.2647 8.09226C18.4524 8.27977 18.5578 8.53414 18.5579 8.79941C18.558 9.06468 18.4527 9.31912 18.2652 9.50676L11.1932 16.5788C11.1004 16.6716 10.9902 16.7452 10.8688 16.7953C10.7475 16.8454 10.6175 16.871 10.4862 16.8708Z"
+                  fill="#818CF8"
+                />
+              </g>
+            </svg>
+            Vitae odio a id purus in.
+          </li>
+        </ul>
+        <button>Start for free</button>
+      </div>
+    </section>
+    <section class="section7">
+      <div class="section7-inner-text">
+        <h1>Team management.</h1>
+        <h2>Effortless syncronization.</h2>
+        <p>
+          Massa nunc nisi fames adipiscing scelerisque placerat et sagittis
+          cursus. Mi commodo id maecenas amet, elementum a, in.
+        </p>
+        <ul>
+          <li>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="icon / jam-icons / outline &#38; logos / check">
+                <path
+                  id="Vector"
+                  d="M10.4862 16.8708C10.355 16.871 10.2249 16.8454 10.1036 16.7953C9.98229 16.7452 9.87205 16.6716 9.77923 16.5788L5.53723 12.3358C5.44166 12.2436 5.3654 12.1333 5.31291 12.0113C5.26041 11.8894 5.23274 11.7582 5.23149 11.6254C5.23024 11.4926 5.25545 11.3609 5.30565 11.238C5.35584 11.115 5.43001 11.0033 5.52384 10.9094C5.61766 10.8154 5.72926 10.7411 5.85212 10.6907C5.97498 10.6404 6.10664 10.615 6.23942 10.616C6.3722 10.6171 6.50344 10.6446 6.62548 10.6969C6.74752 10.7492 6.85792 10.8253 6.95023 10.9208L10.4852 14.4558L16.8502 8.09276C17.0377 7.90512 17.2921 7.79965 17.5574 7.79956C17.8226 7.79947 18.0771 7.90476 18.2647 8.09226C18.4524 8.27977 18.5578 8.53414 18.5579 8.79941C18.558 9.06468 18.4527 9.31912 18.2652 9.50676L11.1932 16.5788C11.1004 16.6716 10.9902 16.7452 10.8688 16.7953C10.7475 16.8454 10.6175 16.871 10.4862 16.8708Z"
+                  fill="#818CF8"
+                />
+              </g>
+            </svg>
+            Est et in pharetra magna adipiscing ornare aliquam.
+          </li>
+          <li>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="icon / jam-icons / outline &#38; logos / check">
+                <path
+                  id="Vector"
+                  d="M10.4862 16.8708C10.355 16.871 10.2249 16.8454 10.1036 16.7953C9.98229 16.7452 9.87205 16.6716 9.77923 16.5788L5.53723 12.3358C5.44166 12.2436 5.3654 12.1333 5.31291 12.0113C5.26041 11.8894 5.23274 11.7582 5.23149 11.6254C5.23024 11.4926 5.25545 11.3609 5.30565 11.238C5.35584 11.115 5.43001 11.0033 5.52384 10.9094C5.61766 10.8154 5.72926 10.7411 5.85212 10.6907C5.97498 10.6404 6.10664 10.615 6.23942 10.616C6.3722 10.6171 6.50344 10.6446 6.62548 10.6969C6.74752 10.7492 6.85792 10.8253 6.95023 10.9208L10.4852 14.4558L16.8502 8.09276C17.0377 7.90512 17.2921 7.79965 17.5574 7.79956C17.8226 7.79947 18.0771 7.90476 18.2647 8.09226C18.4524 8.27977 18.5578 8.53414 18.5579 8.79941C18.558 9.06468 18.4527 9.31912 18.2652 9.50676L11.1932 16.5788C11.1004 16.6716 10.9902 16.7452 10.8688 16.7953C10.7475 16.8454 10.6175 16.871 10.4862 16.8708Z"
+                  fill="#818CF8"
+                />
+              </g>
+            </svg>
+            Tellus arcu sed consequat ac velit ut eu blandit.
+          </li>
+          <li>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="icon / jam-icons / outline &#38; logos / check">
+                <path
+                  id="Vector"
+                  d="M10.4862 16.8708C10.355 16.871 10.2249 16.8454 10.1036 16.7953C9.98229 16.7452 9.87205 16.6716 9.77923 16.5788L5.53723 12.3358C5.44166 12.2436 5.3654 12.1333 5.31291 12.0113C5.26041 11.8894 5.23274 11.7582 5.23149 11.6254C5.23024 11.4926 5.25545 11.3609 5.30565 11.238C5.35584 11.115 5.43001 11.0033 5.52384 10.9094C5.61766 10.8154 5.72926 10.7411 5.85212 10.6907C5.97498 10.6404 6.10664 10.615 6.23942 10.616C6.3722 10.6171 6.50344 10.6446 6.62548 10.6969C6.74752 10.7492 6.85792 10.8253 6.95023 10.9208L10.4852 14.4558L16.8502 8.09276C17.0377 7.90512 17.2921 7.79965 17.5574 7.79956C17.8226 7.79947 18.0771 7.90476 18.2647 8.09226C18.4524 8.27977 18.5578 8.53414 18.5579 8.79941C18.558 9.06468 18.4527 9.31912 18.2652 9.50676L11.1932 16.5788C11.1004 16.6716 10.9902 16.7452 10.8688 16.7953C10.7475 16.8454 10.6175 16.871 10.4862 16.8708Z"
+                  fill="#818CF8"
+                />
+              </g>
+            </svg>
+            Ullamcorper ornare in et egestas dolor orci.
+          </li>
+        </ul>
+        <button>Start for free</button>
+      </div>
+      <div class="section7-inner-img">
+        <img src="./imaeges/Picture-section7.png" alt="" />
+      </div>
+    </section>
+    <section class="section8">
+      <div class="section8-inner">
+        <div class="section8-inner-text">
+          <h1>Ultrices risus, sagittis, ullamcorper gravida aliquam auctor.</h1>
+          <p>
+            Risus sit suscipit et nibh. Morbi pretium volutpat eget habitasse
+            habitant elementum dignissim arcu mauris. Ullamcorper euismod id
+            commodo mi nec. Sit egestas mauris imperdiet feugiat eros, sapien at
+            pellentesque.
+          </p>
+          <button>Request more info</button>
+        </div>
+        <div class="section8-inner-img">
+          <img src="./imaeges/graph-style.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section9">
+      <div class="section9-inner">
+        <div class="section9-inner-text">
+          <h1>Control the flow.</h1>
+          <h2>Work faster.</h2>
+          <p>
+            Scelerisque auctor dolor diam tortor, fames faucibus non interdum
+            nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie
+            adipiscing lacinia.
+          </p>
+          <button>Start for free</button>
+        </div>
+        <div class="section9-inner-img">
+          <img src="./imaeges/section9.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section10">
+      <h1>Our partners. Our Friends.</h1>
+      <h2>They love us.</h2>
+      <p>Sem malesuada sed lectus id nunc mattis est eget tincidunt.</p>
+    </section>
+    <section class="section11">
+
+            <div class="section11-box">
+                <img src="./imaeges/Logo-grey (4).svg" alt="" />
+                <p>Amet morbi enim sodales quis dui, in habitant pharetra. Risus id
+                fringilla sed adipiscing volutpat sit varius turpis. Sed pretium
+                semper rhoncus, tellus semper.
+                </p>
+                <div class="box-inner">
+                  <img src="./imaeges/User Thumb (1).png" alt="">
+                  <div><h5>Hellena John</h5>
+                    <p>Product Designer</p></div>
+                </div>
+            </div>
+
+            <div class="section11-box">
+                <img src="./imaeges/Logo-grey.svg" alt="" />
+                <p>
+                Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus,
+                viverra turpis lorem. Varius a turpis urna id porttitor.
+              </p>
+              <div class="box-inner">
+                <img src="./imaeges/User Thumb (2).png" alt="">
+                <div><h5>Ralph Edwards</h5>
+                  <p>Team Lead</p></div>
+              </div>
+            </div>
+
+            <div class="section11-box">
+                <img src="./imaeges/Logo-grey (1).svg" alt="" />
+                <p>Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+                enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.
+                Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
+                <div class="box-inner">
+                  <img src="./imaeges/User Thumb (3).png" alt="">
+                  <div><h5>Hellena John</h5>
+                    <p>Co-founder</p></div><h5>Hellena John</h5>
+                  <p>Co-founder</p>
+                </div>
+            </div>
+
+            <div class="section11-box">
+                <img src="./imaeges/Logo-grey (2).svg" alt="" />
+                <p>A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id
+                ultrices a lacus. Pretium vehicula pretium posuere justo sed lorem
+                cursus.</p>
+                <div class="box-inner">
+                  <img src="./imaeges/User Thumb (4).png" alt="">
+                  <div><h5>David Oshodi</h5>
+                    <p>Manager</p></div>
+                </div>
+            </div>
+
+            <div class="section11-box">
+                <img src="./imaeges/Logo-grey (3).svg" alt="" />
+                <p>
+                Magna egestas aliquet ut integer non. Sed diam enim nibh sit.
+                Aliquam laoreet aenean metus nibh eu scelerisque.
+              </p>
+              <div class="box-inner">
+                <img src="./imaeges/User Thumb (1).png" alt="">
+                <div><h5>Charolette Hanlin</h5>
+                  <p>CEO</p></div>
+              </div>
+            </div>
+    </section>
+    <section class="section12">
+      <h1>Your team. Your projects.</h1>
+      <h2>Always together.</h2>
+      <p>Malesuada ut aliquam at ac est nisi, interdum etiam dignissim.</p>
+
+      <div class="button">
+        <button class="blue-btn">Start for free</button>
+        <button class="btn">Request more info</button>
+      </div>
+
+    </section>
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <ul>
+            <li>Categories</li>
+            <li>User Interface</li>
+            <li>User Experience</li>
+            <li>Digital Media</li>
+            <li>Lifestyle</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Product</li>
+            <li>Pricing</li>
+            <li>Overview</li>
+            <li>Browse</li>
+            <li>Accessibility <button>BETA</button></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Solutions</li>
+            <li>Brainstorming</li>
+            <li>Ideation</li>
+            <li>Wireframing</li>
+            <li>Research</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Resources</li>
+            <li>Help Center</li>
+            <li>Blog</li>
+            <li>Tutorials</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Support</li>
+            <li>Contact Us</li>
+            <li>Developers</li>
+            <li>Documentation</li>
+            <li>Integrations</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Company</li>
+            <li>About</li>
+            <li>Press</li>
+            <li>Events</li>
+            <li>Request Demo <img src="./imaeges/arrow-right.svg" alt=""></li>
+          </ul>
+        </div>
+  </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+
+
+$('.section11').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+
+
+
+    });
+  </script>
+
+
+
+
+  </body>
+  
+  
 </html>

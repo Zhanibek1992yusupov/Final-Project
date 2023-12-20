@@ -1,0 +1,44 @@
+.section5 {
+    text-align: center;
+    background-color: #4F46E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .section5-inner {
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        
+    }
+    
+    h1 {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 110%;
+        margin-bottom: 8px;
+        
+    }
+.section5-inner-text {
+    padding: 80px 80px 360px 80px;
+
+}
+
+.section5-inner-img {
+    padding-bottom: 80px;
+    position: absolute;
+    z-index: 10;    
+    top: 250px;
+    left: -160px;
+
+    img {
+        height: 797px;
+        width: 1280px;
+    }
+}
+
+}
