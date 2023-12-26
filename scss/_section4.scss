@@ -8,31 +8,13 @@
     .section4-inner-text {
         width: 50%;
         h1 {
-            color: #FFF;
-            font-family: Roboto;
-            font-size: 48px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 110%;
-            margin-bottom: 8px;
-            margin-top: 80px;
-
+            @include h1Style;
         }
         h2 {
-            color: #818CF8;
-            font-family: Roboto;
-            font-size: 48px;
-            font-style: normal;
-            font-weight: 800;
+            @include h2style;
         }
         p {
-            color: #CBD5E1;
-            font-family: Roboto;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 160%;
-            margin-top: 32px;
+            @include pstyle;
         }
     }
 

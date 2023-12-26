@@ -14,14 +14,7 @@
     }
     
     h1 {
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 110%;
-        margin-bottom: 8px;
-        
+        @include h1Style;
     }
 .section5-inner-text {
     padding: 80px 80px 360px 80px;
@@ -33,7 +26,7 @@
     position: absolute;
     z-index: 10;    
     top: 250px;
-    left: -160px;
+    left: -80px;
 
     img {
         height: 797px;

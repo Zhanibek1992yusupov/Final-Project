@@ -7,20 +7,10 @@
     margin: 0 auto;
 
     h1 {
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 110%;
-        margin-bottom: 8px;
+        @include h1Style;
     }
     h2 {
-        color: #818CF8;
-        font-family: Roboto;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 800;
+        @include h2style;
     }
 
     p {
@@ -31,27 +21,10 @@
         margin-top: 24px;
     }
     p, li {
-        color: #CBD5E1;
-        font-family: Roboto;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 160%;
-        list-style: none; 
+        @include pstyle; 
         }
     button {
-        border-radius: 8px;
-        border: 1px;
-        background: #4F46E5;
-        color: white;
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.5px;
-        padding: 12px 16px;
-        margin-top: 24px;
-        width: 256px;
+        @include bluebtnstyle; 
     }
 
     
